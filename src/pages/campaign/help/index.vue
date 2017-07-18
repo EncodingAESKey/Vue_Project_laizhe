@@ -1,22 +1,18 @@
 <template>
 	<div class="help-page">
-
 		<div class="help-header">
 			<router-link class="help-header-left iconfont" to="/campaign">&#xe657;</router-link>
-	  		<h1 class="help-header-middle">一元夺宝活动规则&常见问题</h1>
+	  			<h1 class="help-header-middle">一元夺宝活动规则&常见问题</h1>
 	  		<router-link to="/">
 	  			<a class="help-header-right"><img src="../../../assets/img/campaign/help-logo.png" class="help-header-logo"/><br>首页</a>
 	  		</router-link>
 		</div>
-		
 		<help-main></help-main>
-		
 	</div>
 </template>
 
 <script>
-	import helpmain from './myrule'
-
+	import helpmain from './myrule';
 	export default {
 		data () {
 		    return {
